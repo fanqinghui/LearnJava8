@@ -1,11 +1,9 @@
-package com.wish.learn.part1;
+package com.wish.action.part1;
 
 import com.google.common.base.Objects;
-import com.google.common.collect.ImmutableCollection;
 import com.google.common.collect.Lists;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
