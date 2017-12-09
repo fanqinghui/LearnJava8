@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * 冒泡排序，每次相邻的元素进行比较，谁比较小就交换位置，把小的排到后面。每次一轮比较都会确定一个最小值
- * 时间复杂度：
+ * 时间复杂度：O(N的2次方)
  * 10w份数据 共运行六次平均用时在90秒(68720ms)左右 ,跟桶排序部署一个级别
  * i5 4核 2.5Hz 12G内存
  * @author fqh
@@ -28,7 +28,7 @@ public class BubbleSort {
         Long beginTime=System.currentTimeMillis();
         sort(init);
         Long endTime=System.currentTimeMillis();
-        System.out.println("100w份数据耗时："+(endTime-beginTime)+"ms");
+        System.out.println("10w份数据耗时："+(endTime-beginTime)+"ms");
         /*Arrays.stream(init).forEach(student -> print(student));
         System.out.println("soft end");
         Arrays.stream(sort(init)).forEach(student -> print(student));*/
