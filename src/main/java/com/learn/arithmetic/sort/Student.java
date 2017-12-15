@@ -1,6 +1,6 @@
 package com.learn.arithmetic.sort;
 
-class Student{
+public class Student{
         String name;
         int socre;
 
